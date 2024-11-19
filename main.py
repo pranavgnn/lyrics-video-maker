@@ -1,8 +1,8 @@
 import os
 from video import LyricsFetcher, AudioFetcher, ImageMaker, VideoMaker
 
-artist_name = "Lady Gaga"
-song_title = "Die With A Smile"
+artist_name = "Maroon 5"
+song_title = "Moves Like Jagger"
 folder_name = f"{artist_name} - {song_title}"
 
 if not os.path.exists(folder_name):
